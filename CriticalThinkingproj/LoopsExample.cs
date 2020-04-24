@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace CriticalThinkingproj
 {
-    class Class1
+    class LoopsExample
     {
+
+       
+        public void ShowWordsInWord(string word)
+        {
+            for (int i = 0; i < word.Length; i++)
+            {
+                Console.WriteLine(word[i]);
+            }
+
+        }
     }
 }

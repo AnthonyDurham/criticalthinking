@@ -10,7 +10,7 @@ namespace CriticalThinkingproj
     {
         static void Main(string[] args)
         {
-            LoopExamples loops = new LoopExamples();
+            LoopsExample loops = new LoopsExample();
             loops.ShowWordsInWord("Cowboys");
 
 

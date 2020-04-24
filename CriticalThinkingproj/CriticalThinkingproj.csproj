@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\Desktop\dev code camp\week 2\LoopExamples.cs">
-      <Link>LoopExamples.cs</Link>
-    </Compile>
+    <Compile Include="LoopsExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
