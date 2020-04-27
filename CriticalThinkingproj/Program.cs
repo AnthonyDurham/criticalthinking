@@ -11,8 +11,9 @@ namespace CriticalThinkingproj
         static void Main(string[] args)
         {
             LoopsExample loops = new LoopsExample();
-            loops.ShowWordsInWord("Cowboys");
+            loops.ShowWordsInWord();
 
+            Console.ReadLine();
 
         }
 
