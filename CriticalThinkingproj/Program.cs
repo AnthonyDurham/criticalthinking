@@ -13,10 +13,10 @@ namespace CriticalThinkingproj
         {
             string team;
             LoopsExample loops = new LoopsExample();
-            loops.ShowWordsInWord("cowboys");
+            loops.ShowWordsInWord("HelloWorld");
 
-            Console.Write("please enter foootbal team:");
-            team = Console.ReadLine();
+            Console.WriteLine();
+            Console.ReadLine();
 
         }
 

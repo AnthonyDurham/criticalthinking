@@ -10,11 +10,11 @@ namespace CriticalThinkingproj
     {
 
        
-        public void ShowWordsInWord(string team)
+        public void ShowWordsInWord(string word)
         {
-            for (int i = 0 ; team.Length < 0 ; i++)
+            for (int i = 0 ; i < word.Length  ; i++)
             {
-                Console.WriteLine(team [i]);
+                Console.WriteLine(word [i]);
                 
             }
 
