@@ -12,7 +12,7 @@ namespace CriticalThinkingproj
        
         public void ShowWordsInWord()
         {
-            for (int i = 0; i < 7 ; i++)
+            for (int i = 9; i > 0 ; i--)
             {
                 Console.WriteLine(i);
             }
