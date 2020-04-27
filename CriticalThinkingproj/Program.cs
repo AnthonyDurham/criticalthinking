@@ -9,11 +9,14 @@ namespace CriticalThinkingproj
     class Program
     {
         static void Main(string[] args)
-        {
-            LoopsExample loops = new LoopsExample();
-            loops.ShowWordsInWord();
 
-            Console.ReadLine();
+        {
+            string team;
+            LoopsExample loops = new LoopsExample();
+            loops.ShowWordsInWord("cowboys");
+
+            Console.Write("please enter foootbal team:");
+            team = Console.ReadLine();
 
         }
 
