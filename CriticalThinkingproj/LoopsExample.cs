@@ -8,17 +8,27 @@ namespace CriticalThinkingproj
 {
     class LoopsExample
     {
+        int i;
 
-       
         public void ShowWordsInWord(string word)
         {
             for (int i = 0; i < word.Length; i++)
+
             {
-                Console.WriteLine(word[i]);
-               
+                
+                
+                if (i % 3 == 0) 
+
+                {
+                  
+                   Console.WriteLine(word[i]);
+                  
+                 }       
+
+                
             }
-
-
         }
+
     }
+
 }
