@@ -12,11 +12,12 @@ namespace CriticalThinkingproj
        
         public void ShowWordsInWord(string word)
         {
-            for (int i = 0 ; i < word.Length; i++)
+            for (int i = 0; i < word.Length; i++)
             {
-                Console.WriteLine(word [i]);
-                
+                Console.WriteLine(word[i]);
+               
             }
+
 
         }
     }
