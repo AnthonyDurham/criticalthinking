@@ -11,20 +11,32 @@ namespace CriticalThinkingproj
         public static void Main(string[] args)
 
         {
-            LoopsExample loops = new LoopsExample();
-            int counter = 5;
-            while (counter < 25)
+           
+            int Counter = 0;
+            string input = "";
+
+            Console.WriteLine("Please enter a number from 0 to 24");
+            while (Counter < 25)
             {
-                Console.WriteLine(counter);
-                counter ++;
+                
+                Counter ++;
             }
 
-            Console.ReadLine();
-             
-        }
-        
-       
 
+            if (int.TryParse(input, out Counter))
+           
+
+               
+                input = Console.ReadLine();
+
+            
+            Console.WriteLine("input is " + input);
+
+            Console.ReadLine();
+
+        }
+
+        
 
 
        
