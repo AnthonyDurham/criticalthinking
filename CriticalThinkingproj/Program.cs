@@ -9,28 +9,34 @@ namespace CriticalThinkingproj
     class Program
     {
         public static void Main(string[] args)
-           
-        {    
-            
-            
+
+        {
             LoopsExample loops = new LoopsExample();
-            loops.ShowWordsInWord("HelloWord");
+            int counter = 5;
+            while (counter < 25)
+            {
+                Console.WriteLine(counter);
+                counter ++;
+            }
+
             Console.ReadLine();
-
-
-            
-           
-            
+             
         }
+        
+       
 
 
 
+       
 
     }
+
+
+}
         
         
 
             
         
     
-}
+
