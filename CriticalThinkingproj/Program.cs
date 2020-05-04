@@ -8,47 +8,111 @@ namespace CriticalThinkingproj
 {
     class Program
     {
-        public static void Main(string[] args)
 
+        static void Main(string[] args)
         {
-           
-            int Counter = 0;
-            string input = "";
 
-            Console.WriteLine("Please enter a number from 0 to 24");
-            while (Counter < 25)
-            {
-                
-                Counter ++;
-            }
-
-
-            if (int.TryParse(input, out Counter))
-           
-
-               
-                input = Console.ReadLine();
-
-            
-            Console.WriteLine("input is " + input);
-
-            Console.ReadLine();
-
+            CaculatorMadness caculatorMadness = new CaculatorMadness();
+                caculatorMadness.AddTwoNumbers();
         }
 
-        
 
-
-       
 
     }
 
 
-}
-        
-        
 
-            
-        
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+//    {
+//        public static void Main(string[] args)
+
+//        {
+
+//            int Counter = 0;
+//            string input = "";
+
+//            Console.WriteLine("Please enter a number from 0 to 24");
+//            while (Counter < 25)
+//            {
+
+//                Counter ++;
+//            }
+
+
+//            if (int.TryParse(input, out Counter))
+
+
+
+//                input = Console.ReadLine();
+
+
+//            Console.WriteLine("input is " + input);
+
+//            Console.ReadLine();
+
+//        }
+
+
+
+
+
+
+//    }
+
+
+//}
+
+
+
+
+
+
 
