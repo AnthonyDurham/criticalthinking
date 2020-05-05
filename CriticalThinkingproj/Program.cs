@@ -8,56 +8,41 @@ namespace CriticalThinkingproj
 {
     class Program
     {
+        public static void Main(string[] args)
 
-        static void Main(string[] args)
         {
 
-            CaculatorMadness caculatorMadness = new CaculatorMadness();
-                caculatorMadness.AddTwoNumbers();
+            int Counter = 0;
+            string input = "";
+
+            Console.WriteLine("Please enter a number from 0 to 24");
+
+            input = Console.ReadLine();
+
+
+            if (int.TryParse(input, out Counter))
+
+               
+
+            Console.WriteLine("input is " + input);
+
+                    Console.ReadLine();
+
+            
+            while (Counter < 25)
+            {
+                    Counter++;
+
+                Console.WriteLine();
+                
+          
+            }
+
+
+
         }
 
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
@@ -71,48 +56,26 @@ namespace CriticalThinkingproj
 
 
 
-//    {
-//        public static void Main(string[] args)
 
-//        {
-
-//            int Counter = 0;
-//            string input = "";
-
-//            Console.WriteLine("Please enter a number from 0 to 24");
-//            while (Counter < 25)
-//            {
-
-//                Counter ++;
-//            }
-
-
-//            if (int.TryParse(input, out Counter))
-
-
-
-//                input = Console.ReadLine();
-
-
-//            Console.WriteLine("input is " + input);
-
-//            Console.ReadLine();
-
-//        }
+  
 
 
 
 
 
+    //class Program
+    //{
 
-//    }
+    //    static void Main(string[] args)
+    //    {
+
+    //        CaculatorMadness caculatorMadness = new CaculatorMadness();
+    //            caculatorMadness.AddTwoNumbers();
+    //    }
 
 
-//}
 
-
-
-
+    //}
 
 
 
